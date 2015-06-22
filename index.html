@@ -1,46 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="style.css">
-	<title>PirateBox - WoodMedia</title>
-	<script src="jquery.min.js"></script>
-	<script src="scripts.js"></script>
-	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+<title>Pirate Theater</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/pbstyle.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<script src="jquery.min.js"></script>
+<script src="scripts.js"></script>
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont-->
 </head>
 <body>
-
-<header id="header">
-	<div class="container">
-		<div id="logo">
-			<h1>
-				<a href="/">
-					<img src="piratebox-logo-horizontal-white.png" alt="PirateBox" title="PirateBox - Share Freely">
-				</a>
-			</h1>
-		</div>
-		<div id="menu-icon"><img src="menu.png" alt="Menu"></div>
-		<nav id="top-nav">
-			<ul>
-				<li><a href="/" class="current">Home</a></li>
-				
-				<li><a href="/Shared/">Files</a></li>
-				<li><a href="#about">About</a></li>
-			</ul>
-		</nav>
-	</div>
-</header>
-
-<section id="content">
+	<!-- header-section-starts -->   
+	<div class="full">
+			<div class="menu">
+				<ul>
+					<li><a class="active" href="/www/index.html"><i class="home"></i></a></li>
+                    <li><a href="theater/index.html"><div class="video"><i class="videos"></i><i class="videos1"></i></div></a></li>
+					<li><a href="theater/404.html"><div class="watching"><i class="watching"></i><i class="watching1"></i></div></a></li>
+				</ul>
+			</div>
+		<div class="main">
+		<div class="header">
+			<div class="top-header">
+				<br></br>
+                <img src="piratebox-logo-horizontal-white.png" alt="PirateBox" title="PirateBox - Share Freely">
+                <br></br>
+				</div>
+		
+        <section id="content">
 	
 		<div id="sidebar">
-        		
-        <div id="upload" class="showing" onClick="location.href='theater/index.html';"> 
-			<h2>Cinema</h2>
-	
-             </div>
             
 		  <div id="upload" class="card">
-				<h2>Upload</h2>
+				<h3>Upload</h3>
 				<iframe width="100%" height="80" src='http://piratebox.lan:8080'>
 					Your browser does not support iframes.. If you want to upload something, follow this <a href='http://piratebox.lan:8080'>Link</a>.
 				</iframe>
@@ -55,12 +54,9 @@
 			</div>
 	 
 		</div> 
-		  
-
-
-
-
-		<div id="main">
+        
+        
+        <div id="main">
 			<div id="chat" class="card">
 				<h2>Chat</h2>
 				<div id="shoutbox" class="shoutbox_content"></div>
@@ -81,18 +77,11 @@
 				</form>
 			</div>
 		</div>
+		
+	</div>	
 	</div>
-</section>
-
-<footer id="about">
-	<div class="container">
-		<p class="to-top"><a href="#header">Back to top</a></p>
-		<h2>About PirateBox</h2>
-		<p>Inspired by pirate radio and the free culture movement, PirateBox is a self-contained mobile collaboration and file sharing device. PirateBox utilizes Free, Libre and Open Source software (FLOSS) to create mobile wireless file sharing networks where users can anonymously share images, video, audio, documents, and other digital content.</p>
-		<p>PirateBox is designed to be safe and secure. No logins are required and no user data is logged. The system is purposely not connected to the Internet in order to prevent tracking and preserve user privacy.</p>
-		<small>PirateBox is licensed under GPLv3.</small>
 	</div>
-</footer>
-
+	
 </body>
+
 </html>
